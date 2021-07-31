@@ -1,0 +1,100 @@
+.page-header-ui-dark {
+    color: #fff;
+    /* background-color: #212832; */
+}
+
+.page-header-ui {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+/* .bg-gradient-primary-to-secondary {
+    background-color: #0061f2 !important;
+    background-image: linear-gradient(
+        135deg
+        , #fd9043 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+        height: 100vh;
+} */
+
+.navbar-marketing .navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+}
+
+.btn-teal {
+    color: #fff !important;
+    background-color: #00ba94 !important;
+    border-color: #00ba94 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../images/toggle_icon.svg");
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+
+.card-portfolio {
+    position: relative !important;
+    overflow: hidden;
+    border: none !important;
+  }
+  
+  .card {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+
+  @media (min-width: 768px){
+.card-portfolio .card-body {
+    position: absolute;
+    border-radius: 0.35rem;
+    opacity: 0;
+    height: 100%;
+    transition: opacity 0.25s ease-in-out;
+    background-color: rgba(0, 97, 242, 0.9);
+}
+.card-portfolio:hover .card-body {
+    opacity: 1;
+}
+.card-title a{
+    color:#fff;
+}
+
+}
+.card-portfolio .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 3.5rem; */
+    width: 100%;
+    text-align: center;
+}
+
+.card-portfolio .card-body .card-title {
+    color: #fff;
+}
+
+.card-portfolio .card-body .card-title {
+    font-size: 0.75rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: #363d47;
+}
+
+.active-menu{
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    color:#fff !important;
+}
+
+
+.logo_css{
+    padding: 4px 20px !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 1px !important;
+    color: floralwhite !important;
+}
